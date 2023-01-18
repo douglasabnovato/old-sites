@@ -30,6 +30,10 @@ Fonte [Curso em video - Gustavo Guanabara](https://www.youtube.com/watch?v=epDCj
 - Git/Github
 - VSCode
 
+#### Tarefas
+
+- [ ] favicon
+
 ---
 
 Feito com ❤️ por <a href="https://www.linkedin.com/in/douglasabnovato/"><img src="https://img.shields.io/static/v1?label=Dev&message=douglasabnovato&color=7159c1&style=for-the-badge&logo=ghost"/></a>👋🏽
