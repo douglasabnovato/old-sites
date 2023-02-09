@@ -1,178 +1,265 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="_css/style.css" />
-  <link rel="shortcut icon" href="./public/glasses.png" type="image/x-icon">
-  <script language="javascript" src="_javascript/funcoes.js"></script>
-  <title>Google Glass</title>
-</head>
-
-<body>
-  <div id="interface">
-    <header id="cabecalho">
-      <hgroup>
-        <h1>Google Glass</h1>
-        <h2>A revolução do Google está chegando</h2>
-      </hgroup>
-      <img id="icone" src="_imagens/glass-oculos-preto-med.png" />
-      <nav id="menu">
-        <h1>Menu Principal</h1>
-        <ul type="disc">
-          <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-med.png')">
-            <a href="index.html">Home</a>
-          </li>
-          <li onmouseover="mudaFoto('_imagens/especificacoes.png')"
-            onmouseout="mudaFoto('_imagens/glass-oculos-preto-med.png')">
-            <a href="specs.html">Especificações</a>
-          </li>
-          <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-med.png')">
-            <a href="fotos.html">Fotos</a>
-          </li>
-          <li onmouseover="mudaFoto('_imagens/multimidia.png')"
-            onmouseout="mudaFoto('_imagens/glass-oculos-preto-med.png')">
-            <a href="multimidia.html">Multimídia</a>
-          </li>
-          <li onmouseover="mudaFoto('_imagens/contato.png')"
-            onmouseout="mudaFoto('_imagens/glass-oculos-preto-med.png')">
-            <a href="fale-conosco.html">Fale conosco</a>
-          </li>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mirror Fashion</title>
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header class="container-header">
+      <img src="img/logo.png" alt="Logo da Mirror Fashion" />
+      <p class="sacola">Nenhum item na sacola de compras</p>
+      <nav class="menu-opcoes">
+        <ul>
+          <li><a href="#">Sua Conta</a></li>
+          <li><a href="#">Lista de Desejos</a></li>
+          <li><a href="#">Cartão Fidelidade</a></li>
+          <li><a href="pages/about.html">Sobre</a></li>
+          <li><a href="#">Ajuda</a></li>
         </ul>
       </nav>
     </header>
-    <section id="corpo">
-      <article id="noticia-principal">
-        <header id="cabecalho-artigo">
-          <hgroup>
-            <h3>Tecnologia > Inovações</h3>
-            <h1>Saiba tudo sobre o Google Glass</h1>
-            <h2>por @douglasabnovato</h2>
-            <h3 class="direita">Atualizado em 02/Março/2020</h3>
-          </hgroup>
-        </header>
-        <h2>O que é</h2>
-        <p>
-          O <span style="font-weight: 900">Google Glass</span> é um acessório
-          em forma de óculos que possibilita a interação dos usuários com
-          diversos conteúdos em realidade aumentada. Também chamado de
-          <a href="https://www.google.com/glass/start/" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar
-          fotos a partir de comandos de voz,
-          enviar mensagens instantâneas e realizar vídeoconferências. Seu
-          lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5
-          mil. Atualmente o <em>Google Glass</em> encontra-se em fase de
-          testes e já possui um vídeo totalmente gravado com o dispositivo.
-          Além disso, a companhia de buscas registrou novas patentes
-          anti-furto e de desbloqueio de tela para o acessório.
-        </p>
-        <figure class="foto-legenda">
-          <img src="_imagens/glass-quadro-homem-mulher.jpg" />
-          <figcaption>
-            <h3>Google Glass</h3>
-            <p>Uma nova maneira de vez o mundo.</p>
-          </figcaption>
+    <div class="container destaque">
+      <section class="busca">
+        <h2>Busca</h2>
+        <form action="">
+          <input type="search" />
+          <button>Buscar</button>
+        </form>
+      </section>
+      <section class="menu-departamentos">
+        <h2>Departamentos</h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Blusas e Camisetas</a>
+              <ul>
+                <li><a href="https://bityli.com/tIiZP">Manga Curta</a></li>
+                <li><a href="https://bityli.com/CmUdM">Manga Comprida</a></li>
+                <li><a href="https://bityli.com/Dl9av">Camisa Social</a></li>
+                <li><a href="https://bityli.com/o4oHr">Camisa Casual</a></li>
+              </ul>
+            </li>
+            <li><a href="https://bityli.com/Pjg98">Calças</a></li>
+            <li><a href="https://bityli.com/aVtEH">Saias</a></li>
+            <li><a href="https://bityli.com/8utTo">Vestidos</a></li>
+            <li><a href="https://bityli.com/s4Yd2">Sapatos</a></li>
+            <li><a href="https://bityli.com/tNpmh">Bolsas e Carteiras</a></li>
+            <li><a href="https://bityli.com/7wKIO">Acessórios</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="banner-destaque">
+        <figure id="foto-banner-destaque-home">
+          <img src="img/destaque-home.png" alt="Promoção: Big City Night" />
         </figure>
-        <h2>Data de lançamento</h2>
-        <p>
-          Não há uma data específica e oficial para o dispositivo ser lançado,
-          ainda. Pode ser que ele esteja disponível em demonstrações a partir
-          de 2013, mas seu lançamento para as lojas fica para, pelo menos,
-          2014.
+        <a href="#" class="pause"></a>
+      </section>
+    </div>
+    <div class="container paineis">
+      <section class="painel novidades">
+        <h2>Novidades</h2>
+        <ol>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura1.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura2.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura3.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura4.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura5.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura6.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura7.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ol>
+        <button type="button">Mostrar mais</button>
+      </section>
+      <section class="painel mais-vendidos">
+        <h2>Mais Vendidos</h2>
+        <ol>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura8.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura9.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura10.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura11.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura12.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura13.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura14.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="produto.html">
+              <figure>
+                <img src="img/produtos/miniatura15.png" alt="blazer-floral" />
+                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ol>
+        <button type="button">Mostrar mais</button>
+      </section>
+    </div>
+    <section>
+      <h2>Bem-vindo à Mirror Fashion, sua loja de roupas e acessórios.</h2>
+      <div class="textos-bloco">
+        <ul>
+          <li>Confira nossas promoções.</li>
+          <li>Receba informações sobre nossos lançamentos por email.</li>
+          <li>Navegue por todos nossos produtos em catálogo.</li>
+          <li>Compre sem sair de casa.</li>
+        </ul>
+      </div>
+      <figure id="produto-1">
+        <img src="img/produto-1.jpg" alt="foto do fuzz cardigan" />
+        <figcaption>Fizz Cardigan por R$129,90</figcaption>
+      </figure>
+      <div>
+        <h2 id="titulo-produto">Produto</h2>
+        <h4>Descrição</h4>
+        <p class="textos">
+          O Fuzzy Cardigan é fantástico para a meia estação, quando o friozinho
+          começa a chegar. Seu estilo parisiense combina com o charme da
+          estação.
         </p>
-        <h2>Especificações Técnicas</h2>
-        <table id="tabelaspec">
-          <caption>
-            Tabela Técnica do Google Glass
-            <span>Mar/2013</span>
-          </caption>
-          <tr>
-            <td class="ce">Tela</td>
-            <td class="cd">Resolução equivalente a tela de 25"</td>
-          </tr>
-          <tr>
-            <td rowspan="2" class="ce">Camera</td>
-            <td class="cd">5MP para fotos</td>
-          </tr>
-          <tr>
-            <td class="cd">720p para vídeos</td>
-          </tr>
-          <tr>
-            <td rowspan="2" class="ce">Conectividade</td>
-            <td class="cd">Wi-Fi</td>
-          </tr>
-          <tr>
-            <td class="cd">Bluetooth</td>
-          </tr>
-          <tr>
-            <td class="ce">Memória Interna</td>
-            <td class="cd">12GB</td>
-          </tr>
-        </table>
-        <h2>Como funciona</h2>
-        <p>
-          De acordo com fontes próximas do Google, os óculos vão contar com
-          uma pequena tela de LCD ou AMOLED na parte superior e em frente aos
-          olhos do usuário. Com o uso de uma câmera e GPS, você pode se
-          situar, assim como selecionar opções com o movimento da cabeça
+        <h4>Dicas</h4>
+        <p class="textos">
+          Esse é o melhor casaco de Cardigã que você já viu. Excelente material
+          italiano com estampa desenhada pelos artesãos da comunidade de Krotor
+          nas ilhas gregas. Compre já e receba hoje mesmo pela nossa entrega
+          ajato.
         </p>
-        <h2>O que você pode fazer com o Google Glasses</h2>
-        <p>
-          O vídeo de divulgação do Google mostra que você pode se transformar
-          em uma espécie de “super-<wbr />humano”, já que o aparelho pode
-            indicar a quantos metros você está de seu destino, se o metrô está
-            aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que
-            você marque encontros apenas com comandos de voz.
-        </p>
-
-        <video id="filme-amostra" controls="controls" poster="_imagens/video-mini02.jpg">
-          <source src="_media/how-it-feels.mp4" type="video/mp4" />
-          <source src="_media/how-it-feels.webm" type="video/webm" />
-          <source src="_media/how-it-feels.ogg" type="video/ogg" />
-          Desculpe, mas não foi possível carregar o vídeo.
-        </video>
-      </article>
+      </div>
     </section>
-    <aside id="lateral">
-      <h1>Outras Notícias</h1>
-      <h2>Vídeo mais recente</h2>
-      <video id="filme-recente" controls="controls" poster="_imagens/video-mini01.jpg">
-        <source src="_media/one-day.mp4" type="video/mp4" />
-        <source src="_media/one-day.webm" type="video/webm" />
-        <source src="_media/one-day.ogg" type="video/ogg" />
-        Desculpe, mas não foi possível carregar o vídeo.
-      </video>
-      <h2>Novidades no Glass</h2>
-      <p>
-        O Google enfim revelou as especificações completas do Google Glass, e
-        com ele uma surpresa ainda inédita no mercado: a gigante das buscas
-        usará um sistema de áudio baseado na transdução por condução. Através
-        das hastes dos óculos, o som será transmitido para o ouvido do usuário
-        por meio de microvibrações em determinados ossos de sua cabeça, sem
-        usar nenhum tipo de alto-falante.
-      </p>
-      <p>
-        Além da surpresa do áudio, a tela montada a frente do olho do usuário
-        também chamou atenção. Serão 640 x 360 pixels de resolução que, em
-        proporção, equivaleria a um monitor de 25 polegadas de alta definição
-        colocado a 2,5 metros de distância do espectador.
-      </p>
-    </aside>
-    <footer id="rodape">
-      <p>
-        Copyright &copy; 2020 - by Douglas A B Novato <br />
-        <a href="https://www.facebook.com/douglasabnovato" target="_blank">Facebook</a>
-        |
-        <a href="https://twitter.com/douglasabnovato" target="_blank">Twitter</a>
-        |
-        <a href="https://www.instagram.com/douglasabnovato" target="_blank">Instagram</a>
-        |
-        <a href="https://douglasabnovato.tumblr.com/" target="_blank">Tumblr</a>
-        | <br /><a href="https://www.linkedin.com/in/douglasabnovato/" target="_blank">Linkedin</a>
-        |
-        <a href="https://github.com/douglasabnovato" target="_blank">Github</a>
-      </p>
+    <section>
+      <div id="mapadapagina">
+        <h3>
+          <a class="mapadapagina" href="#topo-da-pagina">Início da Página</a>
+          <a
+            class="mapadapagina"
+            href="https://maps.google.com.br/?q=Juiz de Fora"
+            >Juiz de Fora - Minas Gerais</a
+          >
+        </h3>
+      </div>
+    </section>
+    <footer>
+      <div class="container-rodape">
+        <div class="image-copy">
+          <img src="img/logo-rodape.png" alt="Logo da Mirror Fashion" />
+        </div>
+        <ul class="social">
+          <li><a href="https://www.github.com/douglasabnovato/">Github</a></li>
+          <li><a href="https://medium.com/@douglasabnovato">Medium</a></li>
+          <li>
+            <a href="https://www.instagram.com/douglasabnovato/">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/douglasabnovato/">Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/douglasabnovato/">Twitter</a>
+          </li>
+        </ul>
+      </div>
     </footer>
-  </div>
-</body>
-
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/banner.js"></script>
+    <script type="text/javascript" src="/js/home.js"></script>
+  </body>
 </html>
