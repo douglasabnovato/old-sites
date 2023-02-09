@@ -4,9 +4,17 @@
 
 <h1 align="center">
     <img alt="versão 1.0 do projeto" title="#google-glass" src="./.github/google-glass-tela.jpg">
-</h1>
+</h1> 
 
-#### Objetivo 
+## 💻🔖 Organização do projeto 
+
+Organizamos as branches para serem guardadas as versões do projeto
+- main: em produção
+- developer: em desenvolvimento das tarefas
+- v-dev-google-glass: primeira versão do projeto
+- v-dev-mirror-fashion: segunda versão do projeto
+
+#### Sobre o projeto 
 
 - Desenvolver em HTML CSS e Javascript um site sobre Google Glass, seguindo o projeto de interface conforme as telas do Layout Inspiração.
 - [Hospedado em Vercel](https://google-glass.vercel.app/) 
