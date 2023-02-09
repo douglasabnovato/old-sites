@@ -16,7 +16,7 @@ Organizamos as branches para serem guardadas as versões do projeto
 
 #### Sobre o projeto 
 
-- Desenvolver em HTML CSS e Javascript um site sobre Google Glass, seguindo o projeto de interface conforme as telas do Layout Inspiração.
+- Desenvolver em HTML CSS e Javascript um site sobre Google Glass, seguindo o projeto de interface conforme as telas do Layout Inspiração. A ideia é conhecer como as aplicações eram criados antigamente.
 - [Hospedado em Vercel](https://google-glass.vercel.app/) 
 
 #### Layout Inspiração 
